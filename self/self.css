@@ -1,0 +1,41 @@
+nav{
+	
+	text-decoration-color: #fff;
+	background-color: rgba(51,51,51,0.7);
+	 overflow: hidden;
+	margin:0  !important ;
+	padding:0 !important ;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	
+	
+}
+nav a{
+	color: rgba(255,255,255,0.9);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5em;
+	text-decoration-line: none;
+	margin: 0.1em;
+
+
+}
+nav a:hover {
+  background-color: rgba(220,220,220,0.5);
+  color: black;
+  border:1px solid ;
+}
+body{
+	background:url(back.jpg);
+	background-repeat: no-repeat;
+	
+	background-size:cover ;
+}
+footer{
+	position: absolute;
+	color: rgba(255,255,255,0.3);
+	right: 0;bottom:0;left:0;
+}
