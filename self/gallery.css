@@ -1,0 +1,95 @@
+/*.gallery{
+	
+	   
+  	display: grid;
+ 	 grid-template: 150px / auto auto auto;
+	
+}*/
+nav{
+	
+	text-decoration-color: #fff;
+	background-color: rgba(51,51,51,0.9);
+	 overflow: hidden;
+	margin:0  !important ;
+	padding:0 !important ;
+
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	box-shadow:8px 5px 0.05em rgba(0,0,0,0.3); 
+	
+}
+nav a{
+	color: rgba(255,255,255,0.6);
+	font-family: 'Noto Sans HK';
+	font-size: 2em;
+	text-decoration-line: none;
+	text-align: center;
+	margin: 0.1em;
+	padding: 0.2em;
+	border-right:2px solid rgb(255,255,255,0.3);
+	
+
+}
+nav a:hover {
+  background-color: rgba(220,220,220,0.9);
+  color: black;
+  border:1px solid ;
+}
+
+div{
+	position: relative;
+	top:1em;
+}
+body{
+	background: url(back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px 4px;
+  margin: auto;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  box-shadow:4px 4px 2px 2px rgba(0,0,0,0.6);
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+footer{
+	position: absolute;
+	color: rgba(255,255,255,0.3);
+	right: 0;bottom:0;left:0;
+	text-shadow: 0.5px 0.5px;
+}
