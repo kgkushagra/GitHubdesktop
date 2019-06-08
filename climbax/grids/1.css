@@ -1,0 +1,20 @@
+#Grid{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(2,200px);
+	grid-gap: 10px;
+	text-align: center;
+	grid-area: 
+
+}
+#Grid div{
+	background-color: #3bbced;
+	/* margin: 2px; */
+	border: 2px solid black;
+	padding: 20 px;
+
+}
+
+#Grid :nth-child(even){
+	background-color: #777;
+}
